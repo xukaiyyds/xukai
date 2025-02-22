@@ -108,14 +108,19 @@ export function Headline() {
           platform="twitter"
         /> */}
         <SocialLink
+          href="https://me.xukaiyyds.cn/bilibili"
+          aria-label="我的 Bilibili"
+          platform="bilibili"
+        />
+        <SocialLink
           href="https://me.xukaiyyds.cn/youtube"
           aria-label="我的 YouTube"
           platform="youtube"
         />
         <SocialLink
-          href="https://me.xukaiyyds.cn/bilibili"
-          aria-label="我的 Bilibili"
-          platform="bilibili"
+          href="https://xukaiyyds.cn/"
+          aria-label="我的个人主页"
+          platform="home"
         />
         {/* <SocialLink
           href="https://me.xukaiyyds.cn/tg"

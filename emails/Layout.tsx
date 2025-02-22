@@ -39,7 +39,7 @@ export default function Layout({
                 src={`${emailConfig.baseUrl}/icon.png`}
                 width="24"
                 height="24"
-                alt="Cali"
+                alt="XuKai"
                 className="mx-auto my-0"
               />
               <Text className="text-center">
