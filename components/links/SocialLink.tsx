@@ -10,7 +10,6 @@ import {
   GitHubIcon,
   type IconProps,
   MailIcon,
-  HomeIcon,
   TelegramIcon,
   TwitterIcon,
   YouTubeIcon,
@@ -22,7 +21,6 @@ type Platform =
   | 'github'
   | 'twitter'
   | 'youtube'
-  | 'home'
   | 'telegram'
   | 'bilibili'
   | 'mail'
@@ -43,11 +41,6 @@ const iconMapper: { [key: string]: PlatformInfo } = {
     icon: YouTubeIcon,
     platform: 'youtube',
     label: 'YouTube',
-  },
-  '(?:xukaiyyds.cn)': {
-    icon: HomeIcon,
-    platform: 'home',
-    label: '个人主页',
   },
   '((?:t.me)|(?:telegram.com))': {
     icon: TelegramIcon,
