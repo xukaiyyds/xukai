@@ -53,20 +53,13 @@ export default function Layout({
                 开发者、剪辑师、细节控、理想主义者
               </Text>
               <Text className="text-center">
-                <Link
+                {/* <Link
                   href="https://me.xukaiyyds.cn/twitter"
                   className="text-xs text-zinc-600 underline"
                 >
                   Twitter
                 </Link>{' '}
-                |&nbsp;
-                <Link
-                  href="https://me.xukaiyyds.cn/youtube"
-                  className="text-xs text-zinc-600 underline"
-                >
-                  YouTube
-                </Link>{' '}
-                |&nbsp;
+                |&nbsp; */}
                 <Link
                   href="https://me.xukaiyyds.cn/github"
                   className="text-xs text-zinc-600 underline"
@@ -79,6 +72,13 @@ export default function Layout({
                   className="text-xs text-zinc-600 underline"
                 >
                   哔哩哔哩
+                </Link>{' '}
+                |&nbsp;
+                <Link
+                  href="https://me.xukaiyyds.cn/youtube"
+                  className="text-xs text-zinc-600 underline"
+                >
+                  YouTube
                 </Link>
               </Text>
             </Section>

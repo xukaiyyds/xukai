@@ -102,11 +102,11 @@ export function Headline() {
           aria-label="我的 GitHub"
           platform="github"
         />
-        <SocialLink
+        {/* <SocialLink
           href="https://me.xukaiyyds.cn/twitter"
           aria-label="我的推特"
           platform="twitter"
-        />
+        /> */}
         <SocialLink
           href="https://me.xukaiyyds.cn/youtube"
           aria-label="我的 YouTube"
@@ -117,11 +117,11 @@ export function Headline() {
           aria-label="我的 Bilibili"
           platform="bilibili"
         />
-        <SocialLink
+        {/* <SocialLink
           href="https://me.xukaiyyds.cn/tg"
           aria-label="我的 Telegram"
           platform="telegram"
-        />
+        /> */}
         <SocialLink
           href="/feed.xml"
           aria-label="RSS 订阅"
