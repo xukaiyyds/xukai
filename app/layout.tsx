@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Xu Kai,徐凯,xukaiyyds,开发者,剪辑师,细节控,理想主义者',
+  keywords: 'Xu Kai,徐凯,xukaiyyds,凯心过,开发者,设计师,细节控,理想主义者',
   manifest: '/site.webmanifest',
   robots: {
     index: true,

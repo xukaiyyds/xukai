@@ -50,7 +50,7 @@ export default function Layout({
                   <strong>Xu Kai</strong>
                 </Link>
                 <br />
-                开发者、剪辑师、细节控、理想主义者
+                开发者、设计师、细节控、理想主义者
               </Text>
               <Text className="text-center">
                 <Link

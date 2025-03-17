@@ -12,14 +12,10 @@ function getKey(url: string) {
 }
 
 const faviconMapper: { [key: string]: string } = {
-  '((?:zolplay.cn)|(?:zolplay.com)|(?:cn.zolplay.com))':
-    'https://me.xukaiyyds.cn/favicons/zolplay.png',
+  '(?:xukaiyyds.cn)': 'https://me.xukaiyyds.cn/favicons/avatar.png',
   '(?:github.com)': 'https://me.xukaiyyds.cn/favicons/github.png',
   '((?:t.co)|(?:twitter.com)|(?:x.com))':
     'https://me.xukaiyyds.cn/favicons/twitter.png',
-  'coolshell.cn': 'https://me.xukaiyyds.cn/favicons/coolshell.png',
-  'vercel.com': 'https://me.xukaiyyds.cn/favicons/vercel.png',
-  'nextjs.org': 'https://me.xukaiyyds.cn/favicons/nextjs.png',
 }
 
 function getPredefinedIconForUrl(url: string): string | undefined {
