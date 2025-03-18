@@ -61,13 +61,6 @@ export default function Layout({
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://me.xukaiyyds.cn/twitter"
-                  className="text-xs text-zinc-600 underline"
-                >
-                  Twitter
-                </Link>{' '}
-                |&nbsp;
-                <Link
                   href="https://me.xukaiyyds.cn/bilibili"
                   className="text-xs text-zinc-600 underline"
                 >
@@ -75,10 +68,17 @@ export default function Layout({
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://me.xukaiyyds.cn/youtube"
+                  href="/feed.xml"
                   className="text-xs text-zinc-600 underline"
                 >
-                  YouTube
+                  RSS
+                </Link>{' '}
+                |&nbsp;
+                <Link
+                  href="mailto:hi@xukaiyyds.cn"
+                  className="text-xs text-zinc-600 underline"
+                >
+                  Email
                 </Link>
               </Text>
             </Section>

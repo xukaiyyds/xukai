@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
 import { SparkleIcon, UserSecurityIcon } from '~/assets'
-// import { PeekabooLink } from '~/components/links/PeekabooLink'
+import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { SocialLink } from '~/components/links/SocialLink'
 
 function Developer() {
@@ -80,9 +80,9 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是徐凯，
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
-          {/* <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink> */}
+          我是徐凯，我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          想了解更多？请前往我的
+          <PeekabooLink href="https://xukaiyyds.cn">个人主页</PeekabooLink>
         </Balancer>
       </motion.p>
       <motion.div
@@ -102,21 +102,21 @@ export function Headline() {
           aria-label="我的 GitHub"
           platform="github"
         />
-        <SocialLink
+        {/* <SocialLink
           href="https://me.xukaiyyds.cn/twitter"
           aria-label="我的 Twitter"
           platform="twitter"
-        />
+        /> */}
         <SocialLink
           href="https://me.xukaiyyds.cn/bilibili"
           aria-label="我的 Bilibili"
           platform="bilibili"
         />
-        <SocialLink
+        {/* <SocialLink
           href="https://me.xukaiyyds.cn/youtube"
           aria-label="我的 YouTube"
           platform="youtube"
-        />
+        /> */}
         {/* <SocialLink
           href="https://me.xukaiyyds.cn/tg"
           aria-label="我的 Telegram"

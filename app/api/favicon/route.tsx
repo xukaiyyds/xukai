@@ -14,8 +14,6 @@ function getKey(url: string) {
 const faviconMapper: { [key: string]: string } = {
   '(?:xukaiyyds.cn)': 'https://me.xukaiyyds.cn/favicons/avatar.png',
   '(?:github.com)': 'https://me.xukaiyyds.cn/favicons/github.png',
-  '((?:t.co)|(?:twitter.com)|(?:x.com))':
-    'https://me.xukaiyyds.cn/favicons/twitter.png',
 }
 
 function getPredefinedIconForUrl(url: string): string | undefined {
