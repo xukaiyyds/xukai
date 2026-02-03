@@ -82,7 +82,7 @@ export function Headline() {
         <Balancer>
           我是徐凯，网名凯心过，我热爱开发，剪辑，创新，享受生活，以及在未知领域中探索。
           想了解更多？请前往我的
-          <PeekabooLink href="https://xukaiyyds.cn">个人主页</PeekabooLink>
+          <PeekabooLink href="https://plog.xukaiyyds.cn">生活博客</PeekabooLink>
         </Balancer>
       </motion.p>
       <motion.div
@@ -116,8 +116,8 @@ export function Headline() {
           href="https://me.xukaiyyds.cn/youtube"
           aria-label="我的 YouTube"
           platform="youtube"
-        /> */}
-        {/* <SocialLink
+        />
+        <SocialLink
           href="https://me.xukaiyyds.cn/tg"
           aria-label="我的 Telegram"
           platform="telegram"
