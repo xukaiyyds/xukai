@@ -10,7 +10,7 @@ import { SocialLink } from '~/components/links/SocialLink'
 function Developer() {
   return (
     <span className="group">
-      <span className="font-mono">&lt;</span>开发者
+      <span className="font-mono">&lt;</span>开发迷
       <span className="font-mono">/&gt;</span>
       <span className="invisible inline-flex text-zinc-300 before:content-['|'] group-hover:visible group-hover:animate-typing dark:text-zinc-500" />
     </span>
@@ -26,7 +26,7 @@ function Designer() {
         <span className="absolute -bottom-[3.5px] -left-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-[3.5px] -top-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      设计师
+      剪辑师
     </span>
   )
 }
@@ -80,7 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是徐凯，我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          我是徐凯，网名凯心过，我热爱开发，剪辑，创新，享受生活，以及在未知领域中探索。
           想了解更多？请前往我的
           <PeekabooLink href="https://xukaiyyds.cn">个人主页</PeekabooLink>
         </Balancer>

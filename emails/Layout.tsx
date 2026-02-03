@@ -39,7 +39,7 @@ export default function Layout({
                 src={`${emailConfig.baseUrl}/icon.png`}
                 width="24"
                 height="24"
-                alt="XuKai"
+                alt="KXGXK"
                 className="mx-auto my-0"
               />
               <Text className="text-center">
@@ -47,10 +47,10 @@ export default function Layout({
                   href="https://me.xukaiyyds.cn"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Xu Kai</strong>
+                  <strong>KXGXK</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、理想主义者
+                开发迷、剪辑师、细节控、理想主义者
               </Text>
               <Text className="text-center">
                 <Link

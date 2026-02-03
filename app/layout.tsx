@@ -14,11 +14,11 @@ import { seo } from '~/lib/seo'
 export const metadata: Metadata = {
   metadataBase: seo.url,
   title: {
-    template: '%s | Xu Kai',
+    template: '%s | KXGXK',
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Xu Kai,徐凯,xukaiyyds,凯心过,开发者,设计师,细节控,理想主义者',
+  keywords: 'KXGXK,kxgxk,凯心过徐凯,凯心过,徐凯',
   manifest: '/site.webmanifest',
   robots: {
     index: true,
@@ -34,10 +34,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: seo.title,
-      template: '%s | Xu Kai',
+      template: '%s | KXGXK',
     },
     description: seo.description,
-    siteName: 'Xu Kai',
+    siteName: 'KXGXK',
     locale: 'zh_CN',
     type: 'website',
     url: 'https://me.xukaiyyds.cn',

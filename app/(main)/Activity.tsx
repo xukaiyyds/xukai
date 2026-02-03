@@ -84,7 +84,7 @@ export function Activity() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                 >
-                  XuKai 在使用 {appLabels[app] ?? app}
+                  徐凯在使用 {appLabels[app] ?? app}
                 </motion.div>
               </Tooltip.Content>
             </Tooltip.Portal>
