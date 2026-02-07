@@ -12,7 +12,7 @@ function getKey(url: string) {
 }
 
 const faviconMapper: { [key: string]: string } = {
-  '(?:plog.xukaiyyds.cn)': 'https://me.xukaiyyds.cn/favicons/avatar.png',
+  '(?:wechat.xukaiyyds.cn)': 'https://me.xukaiyyds.cn/apps/wechat.png',
   '(?:github.com)': 'https://me.xukaiyyds.cn/favicons/github.png',
 }
 

@@ -81,8 +81,7 @@ export function Headline() {
       >
         <Balancer>
           我是徐凯，我热爱开发，剪辑，创新，享受生活，以及在未知领域中探索。
-          想了解更多？请前往我的
-          <PeekabooLink href="https://plog.xukaiyyds.cn">生活博客</PeekabooLink>
+          <PeekabooLink href="https://wechat.xukaiyyds.cn">交个朋友</PeekabooLink>
         </Balancer>
       </motion.p>
       <motion.div
