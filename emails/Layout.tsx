@@ -50,7 +50,7 @@ export default function Layout({
                   <strong>KXGXK</strong>
                 </Link>
                 <br />
-                开发迷、剪辑师、细节控、理想主义者
+                程序员、剪辑师、细节控、理想主义者
               </Text>
               <Text className="text-center">
                 <Link
